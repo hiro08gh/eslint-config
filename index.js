@@ -11,13 +11,15 @@ module.exports = {
     "ecmaFeatures": {
       "jsx": true
     },
-    sourceType: 'module'
+    sourceType: 'module',
+    project: './tsconfig.json'
   },
   settings: {
     react: {
       version: 'detect'
     }
   },
+ plugins: ['@typescript-eslint', 'react', 'react-hooks', 'prettier'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
   }
