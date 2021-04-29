@@ -13,3 +13,7 @@ $ yarn add -D eslint @hiro08/eslint-config
   "extends": "@hiro08"
 }
 ```
+
+# LICENE
+
+MIT.
